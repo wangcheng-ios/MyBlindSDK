@@ -18,7 +18,7 @@
 		EC600CCA2A6522C500D15E64 /* BlindSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC600CC42A6522C500D15E64 /* BlindSDK.framework */; };
 		EC600CCB2A6522C500D15E64 /* BlindSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EC600CC42A6522C500D15E64 /* BlindSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		EC600CD12A65244900D15E64 /* BlindManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC600CD02A65244900D15E64 /* BlindManager.swift */; };
-		EC600CDA2A654CFB00D15E64 /* BlindSDK.podspec in Resources */ = {isa = PBXBuildFile; fileRef = EC600CD92A654CFB00D15E64 /* BlindSDK.podspec */; };
+		EC600CDC2A6553BF00D15E64 /* BlindSDK.podspec in Resources */ = {isa = PBXBuildFile; fileRef = EC600CDB2A6553BF00D15E64 /* BlindSDK.podspec */; };
 		F0C60DAE5434072B253EB14B /* Pods_BlindSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D47D1F765886C1545FE307FF /* Pods_BlindSDK.framework */; };
 /* End PBXBuildFile section */
 
@@ -63,7 +63,7 @@
 		EC600CC42A6522C500D15E64 /* BlindSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BlindSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC600CC62A6522C500D15E64 /* BlindSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlindSDK.h; sourceTree = "<group>"; };
 		EC600CD02A65244900D15E64 /* BlindManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlindManager.swift; sourceTree = "<group>"; };
-		EC600CD92A654CFB00D15E64 /* BlindSDK.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = BlindSDK.podspec; path = BlindSDK/BlindSDK.podspec; sourceTree = "<group>"; };
+		EC600CDB2A6553BF00D15E64 /* BlindSDK.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = BlindSDK.podspec; sourceTree = "<group>"; };
 		F64766A5405CB6B5A81FFB96 /* Pods-BlindSDKDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlindSDKDemo.release.xcconfig"; path = "Target Support Files/Pods-BlindSDKDemo/Pods-BlindSDKDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -111,7 +111,7 @@
 		EC600C8B2A65210A00D15E64 = {
 			isa = PBXGroup;
 			children = (
-				EC600CD92A654CFB00D15E64 /* BlindSDK.podspec */,
+				EC600CDB2A6553BF00D15E64 /* BlindSDK.podspec */,
 				EC600C962A65210A00D15E64 /* BlindSDKDemo */,
 				EC600CC52A6522C500D15E64 /* BlindSDK */,
 				EC600C952A65210A00D15E64 /* Products */,
@@ -252,7 +252,7 @@
 				EC600CA42A65210B00D15E64 /* LaunchScreen.storyboard in Resources */,
 				EC600CA12A65210B00D15E64 /* Assets.xcassets in Resources */,
 				EC600C9F2A65210A00D15E64 /* Main.storyboard in Resources */,
-				EC600CDA2A654CFB00D15E64 /* BlindSDK.podspec in Resources */,
+				EC600CDC2A6553BF00D15E64 /* BlindSDK.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
