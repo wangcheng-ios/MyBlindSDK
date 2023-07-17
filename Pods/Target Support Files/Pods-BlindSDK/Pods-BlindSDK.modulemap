@@ -1,0 +1,6 @@
+framework module Pods_BlindSDK {
+  umbrella header "Pods-BlindSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

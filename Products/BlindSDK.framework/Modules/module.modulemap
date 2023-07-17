@@ -1,0 +1,11 @@
+framework module BlindSDK {
+  umbrella header "BlindSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module BlindSDK.Swift {
+  header "BlindSDK-Swift.h"
+  requires objc
+}
